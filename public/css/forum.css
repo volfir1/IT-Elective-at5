@@ -1,0 +1,197 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2C3E50;
+    line-height: 1.6;
+    background-color: #F0F4F8;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  a {
+    color: #4B8BBE;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: rgb(56, 111, 155);
+  }
+  
+  .navbar {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .navbar-brand {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: #4B8BBE;
+  }
+  
+  .navbar .nav-link {
+    color: #2C3E50;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active {
+    color: #4B8BBE;
+  }
+  
+  .forum-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/src/featured/featured4.jpg") no-repeat center center;
+    background-size: cover;
+    color: #FFFFFF;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .forum-hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .forum-hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .forum-content {
+    padding: 80px 0;
+  }
+  
+  .forum-content h2 {
+    color: #4B8BBE;
+    margin-bottom: 1.5rem;
+  }
+  
+  .forum-posts .post {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forum-posts .post .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .forum-posts .post .post-header .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .forum-posts .post .post-header .post-info h3 {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+  }
+  
+  .forum-posts .post .post-header .post-info .timestamp {
+    font-size: 0.9rem;
+    color: rgb(71, 100, 129);
+  }
+  
+  .forum-posts .post .post-body {
+    margin-bottom: 1rem;
+  }
+  
+  .forum-posts .post .post-footer {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .forum-posts .post .post-footer .btn {
+    background-color: #F0F4F8;
+    color: #2C3E50;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .forum-posts .post .post-footer .btn:hover {
+    background-color: rgb(223, 231, 240);
+  }
+  
+  .add-comment {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-comment h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .add-comment .form-control {
+    border-color: rgb(130, 158, 186);
+  }
+  
+  .add-comment .form-control:focus {
+    border-color: #4B8BBE;
+    box-shadow: 0 0 0 0.2rem rgba(75, 139, 190, 0.25);
+  }
+  
+  .add-comment .btn-primary {
+    background-color: #FFC72C;
+    border-color: #FFC72C;
+    color: #2C3E50;
+    transition: transform 0.3s ease;
+  }
+  
+  .add-comment .btn-primary:hover {
+    transform: scale(1.05);
+    background-color: rgb(255, 191, 14);
+    border-color: rgb(255, 191, 14);
+  }
+  
+  .footer {
+    background-color: #4B8BBE;
+    color: #FFFFFF;
+    padding: 50px 0 20px;
+  }
+  
+  .footer h3 {
+    color: #FFD700;
+    margin-bottom: 20px;
+  }
+  
+  .footer a {
+    color: #FFFFFF;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #FFD700;
+  }
+  
+  .footer hr {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Utility classes */
+  .mt-small { margin-top: 0.5rem; }
+  .mt-medium { margin-top: 1rem; }
+  .mt-large { margin-top: 1.5rem; }
+  .mb-small { margin-bottom: 0.5rem; }
+  .mb-medium { margin-bottom: 1rem; }
+  .mb-large { margin-bottom: 1.5rem; }
+  .pt-small { padding-top: 0.5rem; }
+  .pt-medium { padding-top: 1rem; }
+  .pt-large { padding-top: 1.5rem; }
+  .pb-small { padding-bottom: 0.5rem; }
+  .pb-medium { padding-bottom: 1rem; }
+  .pb-large { padding-bottom: 1.5rem; }
+  
